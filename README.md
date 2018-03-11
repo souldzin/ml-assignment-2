@@ -13,3 +13,22 @@ This is Assignment 2 for our ML class.
 Git will ignore any changes to the "data" folder.
 
 We will need to make sure our test scripts can receive file paths for the testing and training. The professor is expecting us to read from the current directory, while we'll be working off of data in the "data" directory.
+
+## Dependencies
+
+The scripts in this repository have the following dependencies:
+
+* Anaconda Python3
+
+## Run Instructions
+
+Each script takes two arguments:
+
+* The training data path
+* The testing data path
+
+Example:
+
+```
+python BikeRental_Model.py ./data/bikeRentalHourlyTrain.csv ./data/bikeRentalHourlyTest.csv
+```
